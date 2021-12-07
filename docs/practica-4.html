@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Prácticas">
+    <meta name="author" content="Eider Barandiaran">
+    <meta name="generator" content="nano">
+    <title>Práctica 1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Eider Barandiaran</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+ <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="practica-1.html">Práctica 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="practica-2.html">Práctica 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="practica-4.html">Práctica 4</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="memoria.html">Memoria</a>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+ <div class="container">
+<h1 id="procedimiento-y-justificación">Procedimiento y justificación</h1>
+<p>Los pasos que hemos seguido para realizar este gráfico con ayuda de OpenRefine, Excel y Datawrapper han sido los siguientes:</p>
+<p>En primer lugar he descargado la base de datos desde el Instituto Nacional de Estadística en formato CSV. Estos datos los he incorporado a un nuevo proyecto en OpenRefine. A partir de aquí he ido seleccionando y aplicando filtros a las distintas filas y columnas, para así quedarme con los datos que me interesaban. En este caso, hemos seleccionado solo los años 2018, 2019, 2020 y 2021. La idea que teníamos es que el caso era reflejar la situación que había antes, durante y después de la pandemia.</p>
+<p>Además, en vez de seleccionar el total nacional, hemos querido seleccionar el aprobado en las mujeres por un lado, y en los hombres por otro. La intención era además reflejar como siempre las primeras sufren más las consecuencias de una crisis. Los datos del INE están divididos por trimestres, y yo quería obtener la media anual por separado. Ya que para obtener estos datos no sé cómo proceder en OpenRefine, me he descargado el proyecto en formato compatible con excel y a través de la función de media he hecho una tabla con esos datos en el programa Excel.</p>
+<p>Una vez con esta tabla he vuelto a abrir un nuevo proyecto en OpenRefine y he subido el Excel que había creado con las medias. Una vez habiendo ajustado en OpenRefine todo (quitar las celdas, columnas y filas restantes) he descargado el proyecto en formato “separado por comas”. Una vez ya tenía el texto que debía incluir en Datawrapper he abierto la aplicación y he creado un nuevo proyecto en el que he incluido el texto. En este caso, en la interfaz que te da la posibilidad de modificar los datos en la tabla he intercambiado los valores de las columnas y las filas, porque me he dado cuenta que la aplicación lo leía mejor así.</p>
+<p>He seleccionado gráficos de barras, en las que aparecen los valores femeninos y los masculinos comparados a través de dos barras cercanas que a su vez se separan por años. Desde mi punto de vista era en la que mejor se podía hacer la comparación. Por último he seleccionado el color morado para las columnas que muestran los datos de las mujeres (un color típicamente relacionado con la lucha de las mujeres y con mujeres empoderadas) y el clásico azul para los hombres.</p>
+<p>Por último he finalizado el proyecto y descargado el gráfico en archivo .png, esto es como una foto, para poder incluirlo en mi noticia.</p>
+<p>La selección del tema, además de como ya se puede leer en el pequeño informe que he escrito junto al gráfico. Igualmente, decir que me parecía la comparativa más interesante que podía hacer. En primer lugar, porque es la franja de edad en la que me encuentro yo, y por ello, es la que más despierta mi interés. Además, tras la pandemia, se trata de una de las preocupaciones más evidentes de la sociedad, y consideraba oportuno indagar en el asunto.</p>
+<p>EL PARO ENTRE LOS JÓVENES EMPIEZA A RECUPERAR CIFRAS PREVIAS AL COVID-19 Y LAS</p>
+ </div>
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">Conjunto de trabajos de la asignatura &quot;Periodismo de Datos&quot; 2021/2022 de Eider Barandiaran</span>
+  </div>
+</footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>
+
+
