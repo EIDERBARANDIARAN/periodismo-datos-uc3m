@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Prácticas">
+    <meta name="author" content="Eider Barandiaran">
+    <meta name="generator" content="nano">
+    <title>Memoria</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+    
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Eider Barandiaran</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="practica-1.html">Práctica 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="practica-2.html">Práctica 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="practica-4.html">Práctica 4</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="memoria.html">Memoria</a>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container">
+<p>MEMORIA DEL TRABAJO FINAL</p>
+<p>Lo primero que debemos hacer es ubicarnos en nuestro repositorio a través del comando “cd ..” e insertar el nombre de nuestro repositorio. Una vez estamos aquí debemos crear una carpeta con el nombre “docs” a través del comando “mkdir”. Más tarde nos metemos en el repositorio cedido por el profesor donde copiamos el formato “raw” de su archivo “cabecera.html”. Este lo introducimos en nuestra carpeta docs desde nuestra terminal abriendo una página nano. Haremos lo mismo con el “index.html” y con el “pie.html”, además también podemos crear un índice. Una vez insertado todo en nuestra terminal lo actualizamos en nuestro repositorio de Github.</p>
+<p>En el siguiente paso entramos en los “settings” de nuestro repositorio de github. Aquí buscaremos el apartado pages en el que vamos a elegir la carpeta “docs” para que pueda crear el index con el contenido subido en esta carpeta y no en otra. Aquí ya nos saldrá un link a lo que será, por así decirlo, nuestra página web.</p>
+Para poder seguir haciendo la práctica hemos instalado la aplicación “Pandoc”. A través de los ejemplos de “Bootstrap”, que también hemos descargado con anterioridad, elegimos la carpeta “css” y la carpeta “js”. Estas dos carpetas las trasladamos a docs. En la terminal volvemos a introducirnos dentro de nuestro repositorio. Aquí introduciremos “pandoc” seguido del nombre de nuestra primera práctica, esto es, el la primera entrada que queramos que queramos subir. Cuando pulsamos enter nos aparecerá nuestra práctica en formato “html”. Esto lo copiaremos para después introducirlo en nuestro “index.html”. Para ello, abriremos el nano correspondiente. Aquí debemos buscar la línea que sigue a “
+<div class=container>
+<p>” y copiar nuestra primera práctica, convertida, como ya hemos mencionado, con Pandoc.</p>
+<p>Guardamos los cambios con el “control o” y lo guardamos con el nombre correspondiente con el que queramos que figure. Siempre es muy importante guardar los contenidos que creamos en los “nano” con el final “.html”. Procederemos de la misma forma con todas las entradas que queramos crear. Una vez que ya hemos procedido en nuestra terminal hay que actualizarlo en Github. Para ello utilizaremos los siguientes comandos: ``git add” y empezamos con “ejercicio…” (esto es en el supuesto caso que hayamos llamado a las tres prácticas igual) y tabulamos hasta incluir todos los ejercicios. Hacemos el mismo proceso con el comando “git commit -m” y “git push origin main” (sin incluir el nombre de los ejercicios y tabular). Así lo tendremos actualizado en Github. Todo esto, por supuesto y siempre actuando dentro de la carpeta “docs”.</p><p>Abrimos con nano a partir de aquí vamos a cambiar y a modificar ciertos detalles para que todo quede más preciso. Por ejemplo, desde la terminal, abrimos el primer contenido que hemos subido y cambiaremos el nombre de “Home” y lo cambiaremos por el nombre “Inicio”. Para poder poner nuestro nombre, por ejemplo, cambiaremos “&lt;Fixed navbar</a>” por nuestro nombre. Para poder llamar adecuadamente a cada entrada, en la línea 54, cambiaremos los códigos que aparecen por los nuestros, dejándolas así:</p>
+<li class="nav-item">
+<a class="nav-link" 
+href="ejercicio1.html">Ejercicio 1</a>
+</li>
+<p>Esto lo realizamos con todas las entradas de nuestras prácticas, modificando el nombre. Volvemos a actualizar en github a través de los comandos que antes hemos explicado: `git add” y empezamos con “ejercicio…” (esto es en el supuesto caso que hayamos llamado a las tres prácticas igual) y tabulamos hasta incluir todos los ejercicios. Hacemos el mismo proceso con el comando “git commit -m” y “git push origin main” (sin incluir el nombre de los ejercicios y tabular). Así lo tendremos actualizado en Github.</p>
+<p>Llegados a este punto tendremos nuestro “index.html” completo con todas las prácticas, índice, cabecera y pie, así como un acceso directo desde nuestro repositorio de Github.</p> 
+ </div>
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">Conjunto de trabajos de la asignatura &quot;Periodismo de Datos&quot; 2021/2022 de Eider Barandiaran</span>
+  </div>
+</footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
